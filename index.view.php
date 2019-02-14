@@ -1,8 +1,9 @@
 <html>
 <head>
   <title>Pagina de Prueba</title>
-  <script src="//j.dev-wovn.io:3000/1" data-wovnio="key=JabWqG" async></script>>
+  <script src="//j.dev-wovn.io:3000/1" data-wovnio="key=Ym8LSs" async></script>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   <style>
     td, th {
       padding: 3px;
@@ -26,9 +27,28 @@
 </head>
 <body id="app">
   <div>
-    <p>hola> </p>
-    <a href="/hola">hola> esto es un link</a>
-    <h1>Esta es la pagina de pruba</h1>
+    <a href="/largo">este es un link muy laaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa aaaaa  aaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaargo 2</a>
+  </div>
+  <div>
+    <h3 wovn-ignore>Cataaaaaan</h3>
+    <pre>
+      <span>hola
+    </pre>
+    <h3>Doooooooooooog</h3>
+    <h3>Cat and dog</h3>
+    <p>Hola como estas 1</p>
+    <p>Hola como estas 2</p>
+    <p>Hola como estas 3</p>
+    <p>hola 1</p>
+    <a href="/hola">este es un link muy laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargo</a>
+    <div>
+      <span> <span>cats <span>dogs</span></span>Los aviones</span><span> negros</span> <a href="/aviones.html">son lindos</a>
+    </div>
+    <h1>Esta es la pagina de prueba</h1>
+    <h5>Soy un nuevo valor yeahh</h5>
+    <h6>chichi</h6>
+    <h1>Avion</h1>
+    <h6 wovn-ignore>Valor ignorado</h6>
     <p>News</p>
     <li><strong>Titulo: </strong> <?= $todo['title']; ?></li>
     <p class="nope como estas">Hola como estas</p>
@@ -41,9 +61,14 @@
         <?php endforeach ?>
       </ul>
     </div>
-    
+    <a href="/pages/dat_page.html" wovn-ignore>Dat Page</a>
     <div>
-      <h3>Los Perritos y sus edades son</h3>
+      <p>hola 2</p>
+      <img src="https://i.pinimg.com/originals/e6/0f/fb/e60ffbaa10d78a06d02c8a751611c4a9.jpg" alt="">
+      <p>hola 3</p>
+      <p>hola 4</p>
+      <p>hola 5</p>
+      <h3 wovn-ignore>Los Perritos y sus edades son</h3>
       <ul>
         <?php foreach ($dogs as $name => $age): ?>
           <li><?= ucwords($name) ?>: <?= $age ?></li>
@@ -105,6 +130,9 @@
     <a href="/pages/categories.html">Categorias</a>
   </div>
   <script>
+    window.URL = function() {
+      console.log('hola popo')
+    }
     var tag = document.createElement("p");
     tag.innerHTML = 'Ozu<span class="toggle"> Perrito</span>';
     document.getElementById("app").appendChild(tag)

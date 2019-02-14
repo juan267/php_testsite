@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title>Pagina de Prueba</title>
+  <script src="//j.dev-wovn.io:3000/1" data-wovnio="key=Ym8LSs" async></script>
   <meta charset="UTF-8">
-  <script src="//j.dev-wovn.io:3000/1" data-wovnio="key=JabWqG" async></script>>
-  <title>Testsite | chao</title>
+  <style>
+    td, th {
+      padding: 3px;
+      border: 1px solid black
+    }
+
+    .tag--news::before {
+      border-color: #e91802;
+    }
+
+    .tag::before {
+      content: " ";
+      display: inline-block;
+      margin-right: 0.5rem;
+      border-left: 2px solid #47a1d8;
+      height: 0.75rem;
+      padding: 0;
+      width: 0;
+    }
+  </style>
 </head>
-<body>
+<body id="app">
   <h1>Loro</h1>
   <a href="/pages/categories.html">Categorias</a>
   <a href="/">Ir a inicio</a>
