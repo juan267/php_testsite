@@ -1,7 +1,7 @@
 <html>
 <head>
   <title>Pagina de Prueba</title>
-  <script src="//j.dev-wovn.io:3000/1" data-wovnio="key=Ym8LSs" async></script>
+  <script src="//j.dev-wovn.io:3000/1" data-wovnio="key=i8PyYf" async></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
   <style>
@@ -27,27 +27,35 @@
 </head>
 <body id="app">
   <div>
-    <a href="/largo">este es un link muy laaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa aaaaa  aaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaargo 2</a>
+    <a href="/largo">este es un link muy laaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa aaaaa  aaaaaaaaaaaaaaa aaaaaaaaaaaaa aaaaaaaaaaaaaargo </a>
   </div>
   <div>
     <h3 wovn-ignore>Cataaaaaan</h3>
     <pre>
       <span>hola
     </pre>
-    <h3>Doooooooooooog</h3>
+    <h3>Joooooooooooog</h3>
+    <p>CATS</p>
+    <p>Nuevo valor auto traducido</p>
     <h3>Cat and dog</h3>
-    <p>Hola como estas 1</p>
+    <p>Fuzzy match value yeahhhhhhhhhhhhhhhhhhhhaa</p>
+    <p>Fuzzy match value unifietD</p>
+    <p>Hola como estas 5</p>
     <p>Hola como estas 2</p>
     <p>Hola como estas 3</p>
+    <p>CATS jajjajajasj</p>
+    <p>fhajkshdfjkahsdkjlfhjakdhsfjkhajk dfjhjadfkla skdjf af sk</p>
     <p>hola 1</p>
-    <a href="/hola">este es un link muy laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargo</a>
+    <p>valor sin estar traducido con glosario</p>
+    <a href="/hola">este es un link muy laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</a>
     <div>
       <span> <span>cats <span>dogs</span></span>Los aviones</span><span> negros</span> <a href="/aviones.html">son lindos</a>
     </div>
-    <h1>Esta es la pagina de prueba</h1>
+    <h1>Esta es la pagina de pruebe</h1>
     <h5>Soy un nuevo valor yeahh</h5>
     <h6>chichi</h6>
     <h1>Avion</h1>
+    <h1>Carro</h1>
     <h6 wovn-ignore>Valor ignorado</h6>
     <p>News</p>
     <li><strong>Titulo: </strong> <?= $todo['title']; ?></li>
@@ -86,7 +94,6 @@
           <span style="cursor: text;">News</span>
         </a>
         <br>
-        <!-- <a href="/hola">HOla esto es un link</a> -->
         <li><strong>Titulo: </strong> <?= $todo['title']; ?></li>
         <li><strong>Titulo: </strong> <?= $todo['title']; ?></li>
         <li><strong>Titulo: </strong> <?= $todo['title']; ?></li>
@@ -95,8 +102,6 @@
         <li><strong>Fecha: </strong> <?= $todo['due']; ?></li>
         <li><strong>Asignado a: </strong> <?= $todo['assign_to']; ?></li>
 
-        <!-- With ternary Operator -->
-        <!-- <li><strong>Terminado: </strong> <?#= $todo['completed'] ? "Terminado" : "Incompleto"; ?></li> -->
         <li>
           <strong>Terminado: </strong>
           <?php if ($todo['completed']): ?>
@@ -128,6 +133,7 @@
     <?php endif ?>
     <p>Ozu<span class="toggle"> Perrito</span></p>
     <a href="/pages/categories.html">Categorias</a>
+    <span data-v-74dfe632="" contenteditable="true" class="">cats</span>
   </div>
   <script>
     window.URL = function() {
